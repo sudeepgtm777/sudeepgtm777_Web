@@ -83,29 +83,6 @@ export default function Page() {
               />
             </BlurFade>
           ))}
-          <div className="flex flex-col gap-y-3">
-            <BlurFade delay={BLUR_FADE_DELAY * 5}>
-              <h1 className="text-md font-bold">Community</h1>
-            </BlurFade>
-            {DATA.communityWork.map((work, id) => (
-              <BlurFade
-                key={work.company}
-                delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-              >
-                <ResumeCard
-                  key={work.company}
-                  logoUrl={work.logoUrl}
-                  altText={work.company}
-                  title={work.company}
-                  subtitle={work.title}
-                  href={work.href}
-                  badges={work.badges}
-                  period={`${work.start} - ${work.end ?? "Present"}`}
-                  description={work.description}
-                />
-              </BlurFade>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -116,17 +93,21 @@ export default function Page() {
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
-              key={education.school}
+              key={`${education.school}-${education.degree}`}
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
               <ResumeCard
-                key={education.school}
+                key={`${education.school}-${education.degree}`}
                 href={education.href}
                 logoUrl={education.logoUrl}
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
-                period={`${education.start} - ${education.end}`}
+                period={
+                  education.start
+                    ? `${education.start} - ${education.end}`
+                    : education.end
+                }
               />
             </BlurFade>
           ))}
