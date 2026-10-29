@@ -74,12 +74,12 @@ export const DATA = {
       href: 'https://sadacreatives.com.au',
       badges: [] as string[],
       location: 'Remote',
-      title: 'Fullstack Developer (Part-time), Remote',
+      title: 'Fullstack Developer, Remote',
       logoUrl: 'https://i.postimg.cc/1XwBMByb/logo.png',
       start: 'Nov 2025',
       end: 'Present',
       description:
-        'Building and shipping full-stack features for client products. Working across the stack with modern web technologies in a remote part-time role.',
+        'Building and shipping full-stack features for client products. Working across the stack with modern web technologies in a remote role.',
     },
   ],
   communityWork: [] as {
