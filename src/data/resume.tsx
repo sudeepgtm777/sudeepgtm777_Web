@@ -71,12 +71,12 @@ export const DATA = {
   work: [
     {
       company: 'SADA Creatives',
-      href: 'https://sadacreatives.com.au',
+      href: 'https://sadacreatives.com',
       badges: [] as string[],
       location: 'Remote',
       title: 'Fullstack Developer, Remote',
-      logoUrl: 'https://i.postimg.cc/1XwBMByb/logo.png',
-      start: 'Nov 2025',
+      logoUrl: '/logos/sada.png',
+      start: 'May 2025',
       end: 'Present',
       description:
         'Building and shipping full-stack features for client products. Working across the stack with modern web technologies in a remote role.',
@@ -121,6 +121,32 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'Antaryami',
+      href: 'https://jyotish.prakashbhattarai.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Vedic astrology platform for Kundali charts, Jyotishi consultations, matching, Panchang, and AI chart Q&A — in English and Nepali.',
+      technologies: [
+        'Next.js',
+        'Typescript',
+        'Tailwind',
+        'Shadcn',
+        'React',
+        'Node.js',
+        'Postgres',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://jyotish.prakashbhattarai.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/Antaryami.png',
+      video: '',
+    },
+    {
       title: 'Soham Inner Calm',
       href: 'https://sohaminnercalm.com',
       dates: '2025 - Present',
@@ -155,32 +181,6 @@ export const DATA = {
         // },
       ],
       image: '/projects/sohaminnercalm.png',
-      video: '',
-    },
-    {
-      title: 'Antaryami',
-      href: 'https://jyotish.prakashbhattarai.com/',
-      dates: '2025 - Present',
-      active: true,
-      description:
-        'Vedic astrology platform for Kundali charts, Jyotishi consultations, matching, Panchang, and AI chart Q&A — in English and Nepali.',
-      technologies: [
-        'Next.js',
-        'Typescript',
-        'Tailwind',
-        'Shadcn',
-        'React',
-        'Node.js',
-        'Postgres',
-      ],
-      links: [
-        {
-          type: 'Website',
-          href: 'https://jyotish.prakashbhattarai.com/',
-          icon: <Icons.globe className='size-3' />,
-        },
-      ],
-      image: '/projects/Antaryami.png',
       video: '',
     },
     {
