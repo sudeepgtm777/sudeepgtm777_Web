@@ -142,3 +142,24 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+
+@keyframes blur-fade-in {
+  from {
+    transform: translate3d(var(--blur-fade-x, 0), var(--blur-fade-y, -6px), 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.blur-fade-in {
+  animation-name: blur-fade-in;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blur-fade-in {
+    animation: none;
+  }
+}

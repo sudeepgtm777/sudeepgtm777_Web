@@ -1,6 +1,5 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -8,6 +7,29 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+
+function ResumeLogo({ src, alt }: { src: string; alt: string }) {
+  const [failed, setFailed] = React.useState(false);
+
+  return (
+    <div className="border size-12 m-auto overflow-hidden rounded-full bg-white flex items-center justify-center">
+      {failed || !src ? (
+        <span className="text-sm font-medium text-muted-foreground">
+          {alt[0]}
+        </span>
+      ) : (
+        // Native img: Radix Avatar misses load events on first paint / Strict Mode.
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={src}
+          alt={alt}
+          className="h-full w-full object-contain"
+          onError={() => setFailed(true)}
+        />
+      )}
+    </div>
+  );
+}
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -46,14 +68,7 @@ export const ResumeCard = ({
     >
       <Card className="flex">
         <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-            <AvatarImage
-              src={logoUrl}
-              alt={altText}
-              className="object-contain"
-            />
-            <AvatarFallback>{altText[0]}</AvatarFallback>
-          </Avatar>
+          <ResumeLogo src={logoUrl} alt={altText} />
         </div>
         <div className="flex-grow ml-4 items-center flex-col group">
           <CardHeader>
