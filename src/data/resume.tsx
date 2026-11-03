@@ -122,7 +122,7 @@ export const DATA = {
   projects: [
     {
       title: 'Antaryami',
-      href: 'https://jyotish.prakashbhattarai.com/',
+      href: 'https://antaryami.com.au/',
       dates: '2025 - Present',
       active: true,
       description:
@@ -139,7 +139,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://jyotish.prakashbhattarai.com/',
+          href: 'https://antaryami.com.au/',
           icon: <Icons.globe className='size-3' />,
         },
       ],
