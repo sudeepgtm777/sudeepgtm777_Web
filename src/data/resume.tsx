@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: 'https://www.google.com/maps/place/Nepal',
   description: 'Full-Stack Engineer | Web, Mobile, AI & System Design',
   summary:
-    "I'm Sudeep Gautam — a full-stack engineer working on web and React Native projects. I'm learning advanced backend development and love building things that solve real-world problems.",
+    "I'm Sudeep Gautam — a full-stack engineer shipping web and React Native apps, with day-to-day work in backend and API development: building, integrating, testing, and debugging services. I collaborate on open-source and product work across web and mobile, and I'm focused on scaling backend systems with solid engineering practices. I love building things that solve real-world problems, and I ship with Git as part of that process.",
   avatarUrl: '/SudeepPP3.png',
   favIcon: '/favicon.svg',
   skills: [
@@ -20,6 +20,10 @@ export const DATA = {
     'Zustand',
     'Node.js',
     'Express',
+    'API Development',
+    'Integration',
+    'Unit Testing',
+    'Debugging',
     'MongoDB',
     'Postgres',
     'Docker',
