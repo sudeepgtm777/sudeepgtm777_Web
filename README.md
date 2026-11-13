@@ -1,16 +1,21 @@
 # Sudeep Gautam — Portfolio
 
-Personal portfolio site for [sudeepgtm777](https://github.com/sudeepgtm777).
+Personal site for [Sudeep Gautam](https://github.com/sudeepgtm777), a full-stack engineer working on web, mobile, and backend.
 
-## Setup
+**Live:** [https://www.sudeepgautam777.com.np](https://www.sudeepgautam777.com.np)
 
-```bash
-npm install
-npm run dev
-```
+## Stack
 
-Open [http://localhost:3000](http://localhost:3000).
+Next.js 14, React, TypeScript, and Tailwind CSS. The site is a static export deployed to GitHub Pages.
 
-## Customize
+## What’s on the site
 
-Edit [`src/data/resume.tsx`](src/data/resume.tsx) to add work experience, education, projects, email, and avatar.
+- About
+- Work experience
+- Education
+- Skills
+- Project cards
+- GitHub contributions
+- Contact
+
+The custom domain is `www.sudeepgautam777.com.np` ([`CNAME`](CNAME)).
