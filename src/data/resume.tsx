@@ -188,6 +188,42 @@ export const DATA = {
       video: '',
     },
     {
+      title: 'Sada Creatives',
+      href: 'https://sadacreatives.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'In-house design and software studio for websites, applications, and interfaces — designed, built, and shipped by one team.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://sadacreatives.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/SadaCreatives.png',
+      video: '',
+    },
+    {
+      title: 'Guided Anxiety Meditation',
+      href: 'https://guidedanxietymeditation.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Free guided meditations and breathing tools for anxiety — short sessions to settle the body and slow the mind, no app needed.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://guidedanxietymeditation.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/GuidedAnxietyMeditation.png',
+      video: '',
+    },
+    {
       title: 'DineFlow',
       href: 'https://dine-flow-gamma-one.vercel.app',
       dates: '2026',
