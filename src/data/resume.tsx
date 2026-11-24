@@ -188,6 +188,114 @@ export const DATA = {
       video: '',
     },
     {
+      title: 'Sada Creatives',
+      href: 'https://sadacreatives.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'In-house design and software studio for websites, applications, and interfaces — designed, built, and shipped by one team.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://sadacreatives.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/SadaCreatives.png',
+      video: '',
+    },
+    {
+      title: 'Guided Anxiety Meditation',
+      href: 'https://guidedanxietymeditation.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Free guided meditations and breathing tools for anxiety — short sessions to settle the body and slow the mind, no app needed.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://guidedanxietymeditation.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/GuidedAnxietyMeditation.png',
+      video: '',
+    },
+    {
+      title: 'Soham Collective',
+      href: 'https://sohamcollective.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Australian company building meditation, Vedic astrology, and community products that help people slow down, look inward, and grow together.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://sohamcollective.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/SohamCollective.png',
+      video: '',
+    },
+    {
+      title: 'Guided Sleep Meditation',
+      href: 'https://guidedsleepmeditation.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Free sleep meditations, Yoga Nidra, and calming sleep sounds to quiet a busy mind and help you drift off — no app needed.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://guidedsleepmeditation.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/GuidedSleepMeditation.png',
+      video: '',
+    },
+    {
+      title: 'Spiritual Coaching Guide',
+      href: 'https://spiritualcoachingguide.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Clear, honest guidance on spiritual awakening, meditation, and finding the right support — grounded, practical, and without the hype.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://spiritualcoachingguide.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/SpiritualCoachingGuide.png',
+      video: '',
+    },
+    {
+      title: 'Zen Osho Energy',
+      href: 'https://zenoshoenergy.com.au/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Hypnotherapy in Canberra and online to ease anxiety and stress, break unwanted habits, and build lasting confidence.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://zenoshoenergy.com.au/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/ZenoshoEnergy.png',
+      video: '',
+    },
+    {
       title: 'DineFlow',
       href: 'https://dine-flow-gamma-one.vercel.app',
       dates: '2026',
