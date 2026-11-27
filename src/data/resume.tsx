@@ -178,11 +178,11 @@ export const DATA = {
           href: 'https://sohaminnercalm.com',
           icon: <Icons.globe className='size-3' />,
         },
-        // {
-        //   type: 'Source',
-        //   href: 'https://github.com/sudeepgtm777/SohamInnerCalm',
-        //   icon: <Icons.github className='size-3' />,
-        // },
+        {
+          type: 'App Store',
+          href: 'https://apps.apple.com/au/app/soham-innercalm/id6763493866',
+          icon: <Icons.apple className='size-3' />,
+        },
       ],
       image: '/projects/sohaminnercalm.png',
       video: '',
