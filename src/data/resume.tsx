@@ -224,6 +224,60 @@ export const DATA = {
       video: '',
     },
     {
+      title: 'Prakash Bhattarai',
+      href: 'https://prakashbhattarai.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Community hub for meditation, Jyotish, courses, and spiritual communities — discover groups or apply to start your own.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://prakashbhattarai.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/PrakashBhattari.png',
+      video: '',
+    },
+    {
+      title: 'Meditation for Beginners',
+      href: 'https://meditationforbeginners.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Beginner meditation platform with Anahat Naad and AUM — courses, events, and community to start a quieter inner practice.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://meditationforbeginners.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/MeditationForBeginners.png',
+      video: '',
+    },
+    {
+      title: 'Singing Bowl Australia',
+      href: 'https://singingbowlaustralia.com/',
+      dates: '2025 - Present',
+      active: true,
+      description:
+        'Tibetan singing bowls and sound baths — listen free, book a session, and explore bowls in Australia.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind', 'React'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://singingbowlaustralia.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '/projects/SingingBowlAustralia.png',
+      video: '',
+    },
+    {
       title: 'Soham Collective',
       href: 'https://sohamcollective.com/',
       dates: '2025 - Present',
